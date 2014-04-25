@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>Starving Artist</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Jupiter">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/main.css">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+
+<!------------ SMOOTHNESS JQUERY ------------>
+
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+
+
+<!--------------- STICKY NAV ---------------->
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/stickUp.min.js"></script>
+		<script src="js/main.js"></script>
+
+		<script type="text/javascript">
+			jQuery(function($) {
+				$(document).ready( function() {
+					$('.navbar').stickUp({
+						parts: {
+							0:'home',
+							1:'about',
+							2:'menu',
+							3:'location',
+							4:'contact',
+						},
+						itemClass: 'menuItem',
+						itemHover: 'active'
+					});
+				});
+			});
+		</script>
+
+<!----------------- LIGHTBOX ---------------->
+
+		<script src="js/lightbox.js"></script>
+		
+	
+
+	</head>
+
+	<body>
+
+
+<!------------ HEADER NAVIGATION ------------>
+
+			<nav class="navbar">
+					<ul id="navList">
+						<li class"home"><a href="#home" class="menuItem">Home</a></li>
+						<li class"about"><a href="#about" class="menuItem">About</a></li>
+						<li class"menu"><a href="#menu" class="menuItem">Menu</a></li>
+						<li class"location"><a href="#location" class="menuItem">Location</a></li>
+						<li class"contact"><a href="#contact" class="menuItem">Contact</a></li>
+					</ul><!--/#navList-->
+			</nav><!--/.navbar-->
+
+
+<!-------------- HOME SLIDER ---------------->
+
+		<section id="home" class="home">
+			<div class="wrapper">
+				<header>Starving Artist</header>
+				<h1>Espresso.  Waffles.  Bar.</h1>
+				<p>WARNING!!!  Everything is made of waffles, on waffles, between waffles, or made in a waffle iron</p>
+			</div><!--/.wrapper-->
+		</section><!--/#home /.home-->
+
+
+<!------------- ABOUT SLIDER ---------------->
+
+		<section id="about" class="about">
+			<div class="wrapper">
+				<div class="tagline">
+					<h1>About</h1>
+				</div>
+				<p>We at Starving Artist really, really, really love waffles. Not kidding. Bryan Jackson loves waffles so much that he decided to open a restaurant where everything is served with, in and on waffles. Come in and check out our food. Chat with our friendly staff and hang out. Oh, and we have FREE WIFI!!!.</p>
+				<img src="Images/Lion.jpg">
+			</div><!--/.wrapper-->
+		</section><!--/#about /.about-->
+
+
+<!-------------- MENU SLIDER ---------------->
+		
+		<section id="menu" class="menu">
+			<div class="wrapper">
+				<h1>Menu</h1>
+				<p>
+					Serving up Americanos and dishing out Waffles
+				</p>
+				<ul id="menuList">
+					<li>
+						<a href="Images/Food.jpg" data-title="We serve Gluten Free and Vegan Waffles!!!" class="lightbox_trigger">Food</a><!--/.lightbox_trigger-->
+					</li>
+					<li>
+						<a href="Images/Drinks.jpg" data-title="Alcohol is served after 11:00am" class="lightbox_trigger">Drinks</a><!--/.lightbox_trigger-->
+					</li>
+				</ul><!--/#menuList-->
+			</div><!--/.wrapper-->
+		</section><!--/#menu /.menu-->
+	
+
+<!---------- LOCATION SLIDER ---------------->
+
+		<section id="location" class="location">
+			<div class="wrapper">
+				<div class="tagline">
+					<h1>Location</h1>
+				</div>
+				<p>Starving Artist has two locations.  Lansdowne and St. Clair</p>
+				<ul id="area">
+					<li>
+						<a href="Images/lansdowne.jpg" data-title="Hours: 9:00am - 6:00pm.  THIS LOCATION DOES NOT TAKE RESERVATIONS ON WEEKENDS" class="lightbox_trigger">Lansdowne</a><!--/.lightbox_trigger-->
+					</li>
+					<li>
+						<a href="Images/stClair.jpg" data-title="Hours: 9:00am - 9:00pm.  THIS LOCATION DOES NOT TAKE RESERVATIONS ON WEEKENDS" class="lightbox_trigger">St.Clair</a><!--/.lightbox_trigger-->
+					</li>
+				</ul><!--/#area-->
+			</div><!--/.wrapper-->
+		</section><!--/#location /.location-->
+
+
+<!---------- CONTACT SLIDER ---------------->
+
+		<section id="contact" class="contact">
+			<div class="wrapper">
+				<h1>Contact</h1>
+				<p>Follow us on Twitter and Facebook.  You can also email us at</p>
+				<ul id="email">
+					<li><a href="#">info@starvingartistbar.com</a></li>
+				</ul><!--/#email-->
+				<ul id="social">
+					<li>
+						<a href="https://twitter.com/starving4waffle">twitter</a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/starvingartisttoronto?ref=hl">facebook</a>
+					</li>
+				</ul><!--/#social-->
+			</div><!--/.wrapper-->
+		</section><!--/#contact /.contact-->
+
+
+<!----------------- FOOTER ------------------>
+	
+		<footer>
+			<p>© Starving Artist 2014</p>
+		</footer>
+
+	</body>
+
+</html>
+
+
+
+
+
+<!--     lvw/.     -->
